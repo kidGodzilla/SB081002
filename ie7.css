@@ -1,0 +1,12 @@
+#goIE {
+	position:relative;
+	top:-4px;
+	left:10px;
+}
+.hideEl_hide {
+	display:none;
+}
+.hideEl_visible {
+	display:block;
+}
+

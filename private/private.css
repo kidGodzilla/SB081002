@@ -1,0 +1,389 @@
+/* Slam Brands - Private */
+* { border: 0; margin: 0; padding: 0; }
+
+/* =Basic HTML Elements
+----------------------------------------------------------------------*/
+	
+h1	{
+	color: #000;
+	font: 12px "Arial", sans-serif;
+	font-weight: 900;
+	margin: 0 0px 10px 0;
+	}
+		
+		
+h2	{
+	color: #000;
+	font: 14px "Arial", sans-serif;
+	margin: 0 0 8px 0;
+	}
+	
+	h2 a {
+		color: #000;
+		text-decoration: none;
+		}
+		
+	h2 a:hover {
+		color: #007dc3;
+		text-decoration: none;
+		}
+	
+p {
+	color: #000;
+	text-align: left;
+	font: 12px/21px "Arial", sans-serif;
+	margin: 0 0 10px 0;
+	}
+	
+	p a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px solid #b6b6b9;
+		}
+		
+	p a:hover {
+		color: #007dc3;
+		text-decoration: none;
+		border-bottom: 1px solid #b6b6b9;
+		}
+		
+small {
+	font: 10px/14px "Arial", sans-serif;
+	}
+	
+td {
+	color: #000;
+	text-align: left;
+	font: 12px/21px "Arial", sans-serif;
+	margin: 0 0 10px 0;
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+	}
+	
+	td a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px solid #b6b6b9;
+		}
+		
+	td a:hover {
+		color: #007dc3;
+		text-decoration: none;
+		border-bottom: 1px solid #b6b6b9;
+		}
+	
+textarea, input, select {
+	border: 1px solid #b6b6b9;
+	}
+		
+th {
+	padding: 2px 5px;
+	color: #000;
+	text-align: left;
+	font: 12px/21px "Arial", sans-serif;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #000;
+	}
+
+li {
+	list-style-type: none;
+	color: #000;
+	text-align: left;
+	font: 12px/21px "Arial", sans-serif;
+	margin: 0 0 10px 0;
+	}	
+	
+	
+	
+.clear {
+	clear:both;
+	}
+
+/* =ID Elements
+----------------------------------------------------------------------*/
+
+#header {
+	width: 850px;
+	margin: 25px auto 0px auto;
+	border-bottom: 1px solid #b6b6b9;
+	}
+	
+#logo {
+	float: left;
+	}
+		
+#navigation {
+	width: 850px;
+	height: 25px;
+	margin: 0px auto 0 auto;
+	padding: 3px 0px 0 0;
+	border-bottom: 1px solid #b6b6b9;
+	}
+	
+	#navigation li {
+		display: inline;
+		list-style-type: none;
+		font: 14px/21px "Arial", sans-serif;
+		font-weight: 900;
+		text-align: center;
+		color: #b6b6b9;
+		margin-left: 0px;
+		}
+		
+		#navigation li a {
+			color: #b6b6b9;
+			text-decoration: none;
+			padding: 5px 10px 5px 10px;
+			}
+		
+		#navigation li a:hover	{
+			color: #007dc3;
+			text-decoration: none;
+			padding: 5px 10px 5px 10px;
+			}
+			
+		#navigation li.blue a {
+			color: #007dc3;
+			
+			}
+		
+		#navigation li.blue a:hover	{
+			color: #007dc3;
+			
+			}
+			
+		#users {
+			padding-left:175px;
+			text-align: right;
+			}
+
+
+/* GREY #b6b6b9 */
+/* BLUE #007dc3 */
+
+
+#middle {
+	clear: both;
+	width: 830px;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+	}		
+		
+	#subnavigation {
+		width: 102px;
+		float: left;
+		text-align: right;
+		padding: 10px 0 0 0;
+		}
+		
+		#subnavigation li {
+			margin: 0 0 12px 0;
+			}
+	
+	#who {
+		float: right;
+		}
+			
+	#content {
+		width: 500px;
+		float: right;
+		padding: 7px 0 0 0;
+		}
+			
+		#icon-pdf {
+			float: left;
+			padding: 0 10px 0 0;
+			}
+			
+		.brands-left {
+			width: 190px;
+			float: left;
+			}
+			
+		.brands-right {
+			width: 285px;
+			float: right;
+			}
+		
+		.product-category {
+				width: 275px;
+				height: 100px;
+				float: left;
+				padding: 20px;
+				}
+
+			.product-category img {
+				float: left;
+				margin-right: 10px;
+				}
+		
+		.product-list {
+			width: 285px;
+			float: left;
+			padding: 0 0 20px 0;
+			margin: 4px 0 20px 0;
+			border-bottom: 1px solid #b6b6b9;
+			}
+			
+				.product-list img {
+					float: left;
+					margin: 0 10px 0 0;
+					}	
+					
+		.links-list {
+			width: 40%;
+			border: 1px solid #b6b6b9;
+			}
+			
+		.links-image-thumb {
+			width: 40%;
+			}
+			
+		.colors-list {
+			width: 50%;
+			border: 1px solid #b6b6b9;
+			}
+				
+		#product-poo {
+			float: left;
+			width: 150px;
+			margin: 0 20px 0 0;
+			}
+			
+			#assembly-icon {
+				float: left;
+				margin: 0 8px 0 0;
+				padding: 5px 0 0 0;
+				}
+					
+			#assembly-text {
+				}
+				
+		#product-options {
+			width: 102px;
+			float: left;
+			margin: 0 20px 0 0;
+			}
+			
+			#product-options-stand {
+				height: 50px;
+				background-image: url(../images/product-options-stand.gif);
+				background-repeat: no-repeat;
+				margin: 5px 0 0 0;
+				padding: 49px 0 0 10px;
+				}
+				
+			#product-options-bracket {
+				height: 50px;
+				background-image: url(../images/product-options-bracket.gif);
+				background-repeat: no-repeat;
+				padding: 49px 0 0 10px;
+				margin: 5px 0 0 0;
+				}
+				
+		#product-description {
+			width: 185px;
+			float: left;
+			margin: 0 20px 0 0;
+			}
+			
+			#product-description h2	{
+				font: 16px "Arial", sans-serif;
+				font-weight: 900;
+				}
+				
+			#product-description li {
+				font: 11px/21px "Arial", sans-serif;
+				}
+			
+			#product-description li a {
+				color: #000;
+				text-decoration: none;
+				border-bottom: 1px solid #b6b6b9;
+				}
+				
+			#product-description li a:hover {
+				color: #007dc3;
+				text-decoration: none;
+				border-bottom: 1px solid #b6b6b9;
+				}
+							
+			
+		#product-images {
+			width: 285px;
+			float: right;
+			}
+			
+			#product-images li {
+				display: inline;
+				}
+				
+			.product-images-main {
+				margin: 0 0 15px 0;
+				border: 1px solid #b6b6b9;
+				}
+				
+			.product-images-main img {
+				width: 100%;
+				}
+				
+			.product-images-thumb {
+				width: 10%;
+				}
+				
+			.product-images-list {
+				width: 75%;
+				border: 1px solid #b6b6b9;
+				}
+				
+			.product-images-small img {
+				width: 8%;
+				}
+				
+				.product-images-small a img {
+					width: 8%;
+					border: 1px solid #b6b6b9;
+					}
+					
+				.product-images-small a:hover img {
+					width: 8%;
+					border: 1px solid #007dc3;
+					}
+					
+		#product-view-poo p {
+			float: right;
+			}
+		
+		
+		
+		#form-left {
+			float:left;
+			}
+			
+		#form-right {
+			float: right;
+			}
+		
+					
+#footer {
+	clear: both;
+	height: 100px;
+	width: 850px;
+	margin: 0 auto 50px auto;
+	padding: 6px 0 0 0;
+	font: 9px/14px "Arial", sans-serif;
+	text-align: left;
+	border-top: 1px solid #b6b6b9;
+	}
+	
+.error {
+	border: thin solid #ffcc33;
+	background-color:#FF9999;
+	padding:3px;
+	}
+.success {
+	border: thin solid #66CC33;
+	background-color:#66FF99;
+	padding:3px;
+	}
